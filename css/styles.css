@@ -73,7 +73,7 @@ body {
     object-fit: cover; /* "mover" a imagem dentro do container */
     object-position: left; /* "mover" a imagem dentro do container */
     transition: all .5s ease;
-}
+} 
 
 .article-content {
     background-color: white;
@@ -142,10 +142,6 @@ body {
 }
 
 .share-option {
-    /**
-     * variable for transforming `.share-option` box 
-     * without repeating all transform value
-     */
     --scale: 0;
     --translateX: -50%;
     --translateY: 0;
@@ -164,7 +160,7 @@ body {
     transform-origin: bottom;
     visibility: hidden;
     transition: all 0.25s ease;
-  }
+}
 
 .share-option.active {
     --scale: 1;
